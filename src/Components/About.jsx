@@ -1,6 +1,8 @@
 import Skills from "./Skills";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div className="middle-container">
       <div className="profile">
@@ -10,14 +12,7 @@ const About = () => {
           className="portrait"
         />
         <div className="text-wrapper">
-          <h2>Hello.</h2>
-          <p className="intro">
-            Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna.
-            Non auctor, montes nulla distinctio. Lorem ipsum dolor sit amet,
-            vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla
-            distinctio. Lorem ipsum dolor sit amet, vitae volutpat, dui conubia,
-            dolor urna. Non auctor, montes nulla distinctio.
-          </p>
+          <p className="intro">{t("intro")}</p>
         </div>
       </div>
       <hr />
@@ -28,20 +23,12 @@ const About = () => {
             <Skills />
           </p>
         </div>
+        <hr />
+
         <div className="skill-row second">
           <img className="skill2-img" src="/assets/joystick.png" alt="" />
-          <h3>Lorem Ipsum Dolor</h3>
-          <p className="skill2-para">
-            Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
-            bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
-            eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed consectetuer.
-            Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi,
-            quisque vel eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed
-            consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
-            Curabitur wisi, quisque vel eu, rutrum nam. Lorem ipsum dolor sit
-            amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus
-            quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
-          </p>
+          <h2>{t("hobbiesTitle")}</h2>
+          <p className="skill2-para">{t("hobbies")}</p>
         </div>
       </div>
       <hr />

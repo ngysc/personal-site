@@ -38,7 +38,7 @@ p {
 
 .white-content {
   background-color: #252325;
-  color: #ffffff;
+  color: #8d8a8a;
 }
 
 .profile {
@@ -88,6 +88,7 @@ p {
 }
 
 .skill-row.second {
+  margin-top: 100px;
   text-align: left;
 }
 
