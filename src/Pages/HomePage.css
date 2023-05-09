@@ -36,6 +36,11 @@ p {
   font-family: "Merriweather", serif;
 }
 
+.white-content {
+  background-color: #252325;
+  color: #ffffff;
+}
+
 .profile {
   margin: 60px auto;
 }
@@ -195,6 +200,15 @@ p {
   color: #eaf6f6;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
+}
+
+.btn-footer {
+  border: none;
+  background: none;
+}
+
+.btn-footer:hover {
+  color: white;
 }
 
 .icons {

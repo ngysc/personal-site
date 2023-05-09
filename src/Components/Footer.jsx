@@ -1,6 +1,9 @@
+import ThemeToggler from "./ThemeToggler";
+
 const Footer = () => {
   return (
     <div className="bottom-container">
+      <ThemeToggler />
       <div className="icons">
         <a
           className="footer-link"
