@@ -1,32 +1,26 @@
 h1 {
   font-size: 16px;
   font-family: "UnifrakturMaguntia", cursive;
-  color: #fa58b6;
 }
 
 h2 {
   font-size: 8px;
   font-family: "UnifrakturMaguntia", cursive;
-  color: #fa58b6;
   font-weight: normal;
 }
 
 h3 {
   font-size: 6px;
   font-family: "Montserrat", sans-serif;
-  color: #7a0bc0;
+  color: #912fce;
 }
 
 hr {
-  width: 5%;
-  border: dotted 10px #7a0bc0;
-  border-top: 0;
-}
-
-a {
-  color: #7a0bc0;
-  text-decoration: none;
-  margin-right: 20px;
+  width: 10% !important;
+  border: dotted 10px #912fce !important;
+  border-top: 0 !important;
+  opacity: 100 !important;
+  margin: auto !important;
 }
 
 p {
@@ -34,6 +28,8 @@ p {
 }
 
 .wrapper.container-fluid {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -41,28 +37,19 @@ p {
 }
 
 .profile {
-  padding: 40px;
+  margin: 60px auto;
 }
 
 .portrait {
-  height: 18.75rem;
+  height: 16rem;
 }
 
-.intro {
+.text-wrapper {
   width: 60%;
-  margin: auto;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 350px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 350px;
-  bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
 }
 
 .main {
@@ -71,33 +58,90 @@ p {
   align-items: center;
   justify-content: center;
   padding: 100px;
-  background-color: #020202;
+  background-image: url(/public/assets/backgorund.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: #ffffff;
+  opacity: 0.85;
 }
 
 .skills {
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
+  padding: 40px 40px;
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
   width: 60%;
-  text-align: left;
   line-height: 2;
 }
 
+.skill-row.first {
+  margin-bottom: 120px;
+}
+
+.skill-row.second {
+  text-align: left;
+}
+
 .skill-img {
-  width: 40%;
+  width: 150px;
   float: left;
   margin-right: 30px;
 }
 
 .skill2-img {
-  width: 40%;
+  width: 150px;
   float: right;
   margin-left: 30px;
 }
 
+.progress-bars-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  background-color: #ccc;
+  margin: 1.5rem 0;
+  border-radius: 0.3rem;
+  box-shadow: 0.2rem 0.2rem 1rem rgb(211, 208, 208);
+}
+
+.progress-text {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  width: 16px;
+  position: absolute;
+  margin: 20px;
+  color: rgb(3, 3, 3);
+}
+
+.progress-text span {
+  margin-left: 15px;
+}
+
+.progress-percent {
+  width: 0;
+  height: 100%;
+  background-color: #fa58b6;
+  border-radius: 0.3rem;
+  transition: width 0.5s 0.5s ease-in-out;
+}
+
 .contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
   padding: 40px;
 }
 
@@ -108,6 +152,7 @@ p {
 
 .contact-img {
   width: 30%;
+  margin: 60px auto;
 }
 
 .btn {
@@ -127,6 +172,7 @@ p {
   box-shadow: 1px 1px 3px #666666;
   color: #ffffff;
   padding: 10px 20px 10px 20px;
+  width: 150px;
 }
 
 .btn:hover {
@@ -140,11 +186,23 @@ p {
 }
 
 .bottom-container {
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 40px;
   background-color: #fa58b6;
   color: #eaf6f6;
   font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+.icons {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .link-icon {

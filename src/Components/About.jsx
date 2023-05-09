@@ -1,3 +1,5 @@
+import Skills from "./Skills";
+
 const About = () => {
   return (
     <div className="middle-container">
@@ -11,20 +13,19 @@ const About = () => {
           <h2>Hello.</h2>
           <p className="intro">
             Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna.
-            Non auctor, montes nulla distinctio.
+            Non auctor, montes nulla distinctio. Lorem ipsum dolor sit amet,
+            vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla
+            distinctio. Lorem ipsum dolor sit amet, vitae volutpat, dui conubia,
+            dolor urna. Non auctor, montes nulla distinctio.
           </p>
         </div>
       </div>
       <hr />
       <div className="skills">
         <h2>My Skills.</h2>
-        <div className="skill-row">
-          <img className="skill-img" src="/assets/computer.png" alt="" />
-          <h3>Lorem & Ipsum</h3>
+        <div className="skill-row first">
           <p className="skill-para">
-            Lorem ipsum dolor sit amet, quis in duis, iaculis id felis.
-            Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit
-            nam, lectus ante, ut lorem eros.
+            <Skills />
           </p>
         </div>
         <div className="skill-row second">
@@ -33,14 +34,20 @@ const About = () => {
           <p className="skill2-para">
             Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
             bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
-            eu, rutrum nam.
+            eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed consectetuer.
+            Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi,
+            quisque vel eu, rutrum nam. Lorem ipsum dolor sit amet, mauris sed
+            consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
+            Curabitur wisi, quisque vel eu, rutrum nam. Lorem ipsum dolor sit
+            amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus
+            quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.
           </p>
         </div>
       </div>
       <hr />
       <div className="contact-me">
         <h2>Get In Touch</h2>
-        <img className="contact-img" src="/assets/black-cat.png" alt="" />
+        <img className="contact-img" src="/assets/computer.png" alt="" />
         <h3>Lorem ipsum dolor sit amet, non elit.</h3>
         <p className="contact-message">
           Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
