@@ -4,12 +4,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ThemeContextWrapper from "./theme/themeContextWrapper";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ThemeContextWrapper>
     <React.StrictMode>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </React.StrictMode>
   </ThemeContextWrapper>
 );

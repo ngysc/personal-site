@@ -8,6 +8,12 @@
     "contact": "Get In Touch",
     "contact2": "Send me an e-mail if you'd like to work together or just talk.",
     "contact3": "We can talk about job offers or games, but I'm also happy to give you a yoga class if you need it.",
-    "contactButton": "CONTACT ME"
+    "contactButton": "CONTACT ME",
+    "darkToggler": "Switch Dark/Light Mode",
+    "name": "Name",
+    "email": "E-mail address",
+    "emailValidation": "Please enter a valid email address.",
+    "message": "Message",
+    "sendButton": "SEND"
   }
   

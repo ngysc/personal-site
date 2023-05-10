@@ -1,8 +1,11 @@
 import { ThemeContext, themes } from "../contexts/themeContext";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const ThemeToggler = () => {
   const [darkMode, setDarkMode] = useState(false);
+  const { t } = useTranslation();
+
   return (
     <>
       <ThemeContext.Consumer>
@@ -16,9 +19,7 @@ const ThemeToggler = () => {
             }}
           >
             {" "}
-            <p>Dark/Light mode</p>
-            <i className={darkMode ? "fas fa-sun" : "fas fa-moon"}></i>
-            <span className="d-lg-none d-md-block">Switch mode</span>
+            <p>{t("darkToggler")}</p>
           </button>
         )}
       </ThemeContext.Consumer>

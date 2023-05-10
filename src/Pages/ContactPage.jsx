@@ -1,14 +1,14 @@
 import { Container } from "reactstrap";
-import "./HomePage.css";
+import "./ContactPage.css";
 import Header from "../Components/Header";
-import About from "../Components/About";
+import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 
 const ContactPage = () => {
   return (
     <Container fluid className="wrapper">
       <Header />
-      <About />
+      <Contact />
       <Footer />
     </Container>
   );

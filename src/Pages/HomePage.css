@@ -49,8 +49,9 @@ p {
   border: 4px dotted #7a0bc0;
   background: #fa58b6;
   font-family: "Montserrat", sans-serif;
-  margin-right: 5px;
+  margin: 5px;
   border-radius: 10px;
+  color: white;
 }
 
 .profile {
@@ -104,19 +105,14 @@ p {
   text-align: left;
 }
 
-.skill-img {
-  width: 150px;
-  float: left;
-  margin-right: 30px;
-}
-
 .skill2-img {
-  width: 150px;
+  width: 30%;
   float: right;
   margin-left: 30px;
 }
 
 .progress-bars-wrapper {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,15 +152,15 @@ p {
 }
 
 .contact-me {
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 60px auto;
+  margin: 60px auto 40px auto;
   padding: 40px;
 }
 
 .contact-message {
-  width: 60%;
   margin: 40px auto 60px;
 }
 
@@ -191,6 +187,7 @@ p {
   color: #ffffff !important;
   padding: 10px 20px 10px 20px;
   width: 150px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .btn:hover {

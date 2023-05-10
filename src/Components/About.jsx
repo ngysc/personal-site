@@ -1,5 +1,6 @@
 import Skills from "./Skills";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const { t } = useTranslation();
@@ -36,9 +37,11 @@ const About = () => {
         <img className="contact-img" src="/assets/computer.png" alt="" />
         <h3>{t("contact2")}</h3>
         <p className="contact-message">{t("contact3")}</p>
-        <button className="btn" href="#">
-          {t("contactButton")}
-        </button>
+        <Link to="/contact">
+          <button className="btn" href="#">
+            {t("contactButton")}
+          </button>
+        </Link>
       </div>
     </div>
   );

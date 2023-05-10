@@ -20,7 +20,7 @@ const Skills = () => {
 
   useEffect(() => {
     if (showProgressBar) {
-      setProgressBarPercents([90, 90, 90, 85, 85]);
+      setProgressBarPercents([90, 90, 90, 85, 85, 80]);
     }
   }, [showProgressBar]);
 
@@ -74,6 +74,16 @@ const Skills = () => {
         <div
           className="progress-percent"
           style={{ width: `${showProgressBar ? progressBarPercents[4] : 0}%` }}
+        ></div>
+      </div>
+      <div className="progress-bar">
+        <p className="progress-text">
+          Redux
+          <span>{showProgressBar ? progressBarPercents[5] : ""}</span>%
+        </p>
+        <div
+          className="progress-percent"
+          style={{ width: `${showProgressBar ? progressBarPercents[5] : 0}%` }}
         ></div>
       </div>
     </div>

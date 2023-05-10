@@ -8,6 +8,12 @@
     "contact": "Kapcsolat",
     "contact2": "Küldj egy e-mailt, ha szeretnél valamin együtt dolgozni vagy, ha csak beszélgetnél.",
     "contact3": "Beszélhetünk akár állásajánlatokról, akár játékokról, de szívesen adok jógaórát is, ha arra van szükséged.",
-    "contactButton": "E-MAILT KÜLDÖK"
+    "contactButton": "E-MAILT KÜLDÖK",
+    "darkToggler": "Sötét/Világos Nézet Kapcsoló",
+    "name": "Név",
+    "email": "E-mail cím",
+    "emailValidation": "Kérlek valós e-mail címet adj meg.",
+    "message": "Üzenet tartalma",
+    "sendButton": "KÜLDÉS"
   }
   
