@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <div className="main">
         <h1>{t("welcomeMessage1")}</h1>
-        <h2>{t("welcomeMessage2")}</h2>
+        <h2 className="header-text">{t("welcomeMessage2")}</h2>
         <div className="btn-language">
           <button className="btn-lng" onClick={() => changeLanguage("en")}>
             English

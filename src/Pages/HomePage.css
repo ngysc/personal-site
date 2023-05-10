@@ -7,12 +7,13 @@ h2 {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
+  color: #912fce;
 }
 
 h3 {
   font-size: 6px;
   font-family: "Montserrat", sans-serif;
-  color: #912fce;
+  color: #912fce !important;
 }
 
 hr {
@@ -79,8 +80,12 @@ p {
   background-image: url(/public/assets/backgorund.jpg);
   background-size: cover;
   background-repeat: none;
-  color: #ffffff;
+  color: #ffffff !important;
   opacity: 0.85;
+}
+
+.header-text {
+  color: white;
 }
 
 .skills {
@@ -103,6 +108,19 @@ p {
 .skill-row.second {
   margin-top: 100px;
   text-align: left;
+}
+
+.skill-row.second.school {
+  margin-bottom: 100px;
+}
+
+.school-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hobbies-title {
+  margin-bottom: 40px;
 }
 
 .skill2-img {

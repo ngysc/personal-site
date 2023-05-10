@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const Skills = () => {
   const [progressBarPercents, setProgressBarPercents] = useState([
-    0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0,
   ]);
   const [showProgressBar, setShowProgressBar] = useState(true);
 
