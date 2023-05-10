@@ -1,11 +1,11 @@
 h1 {
-  font-size: 16px;
-  font-family: "UnifrakturMaguntia", cursive;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
-  font-size: 8px;
-  font-family: "UnifrakturMaguntia", cursive;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 
@@ -39,6 +39,18 @@ p {
 .white-content {
   background-color: #252325;
   color: #8d8a8a;
+}
+
+.btn-language {
+  margin-top: 30px;
+}
+
+.btn-lng {
+  border: 4px dotted #7a0bc0;
+  background: #fa58b6;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 5px;
+  border-radius: 10px;
 }
 
 .profile {
@@ -176,7 +188,7 @@ p {
   -webkit-box-shadow: 1px 1px 3px #666666;
   -moz-box-shadow: 1px 1px 3px #666666;
   box-shadow: 1px 1px 3px #666666;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 10px 20px 10px 20px;
   width: 150px;
 }

@@ -17,14 +17,13 @@ const About = () => {
       </div>
       <hr />
       <div className="skills">
-        <h2>My Skills.</h2>
+        <h2>{t("skills")}</h2>
         <div className="skill-row first">
           <p className="skill-para">
             <Skills />
           </p>
         </div>
         <hr />
-
         <div className="skill-row second">
           <img className="skill2-img" src="/assets/joystick.png" alt="" />
           <h2>{t("hobbiesTitle")}</h2>
@@ -33,15 +32,12 @@ const About = () => {
       </div>
       <hr />
       <div className="contact-me">
-        <h2>Get In Touch</h2>
+        <h2>{t("contact")}</h2>
         <img className="contact-img" src="/assets/computer.png" alt="" />
-        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-        <p className="contact-message">
-          Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
-          tellus donec dui, ornare erat.
-        </p>
+        <h3>{t("contact2")}</h3>
+        <p className="contact-message">{t("contact3")}</p>
         <button className="btn" href="#">
-          CONTACT ME
+          {t("contactButton")}
         </button>
       </div>
     </div>
